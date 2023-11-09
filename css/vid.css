@@ -37,7 +37,29 @@ header {
     opacity: 0.5;
     z-index: 1;
   }
+
+  .logo_row{
+    width: 250px;
+    border-width: 2px;
+    /*
+    
+    border-color:black;
+    border-style:solid;
+    */
+
+   
+  }
   
+  .logo_col{
+    border-width: 2px;
+    text-align: center;
+     /*
+    border-color:black;
+    border-style:solid;
+    
+    */
+   
+  }
   /* Media Query for devices withi coarse pointers and no hover functionality */
   
   /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
