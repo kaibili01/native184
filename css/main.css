@@ -1,3 +1,221 @@
+
+#profiles{
+    padding-top: 100px;
+    
+    
+    
+}
+
+.rounded-image{
+      
+
+
+}
+
+
+
+.scroller{
+    width: 160px;
+    height: 35vh;
+    padding-top: 300px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.prof_container{
+   
+
+}
+
+.prof_card{
+    border-top-left-radius: 3em; 
+    border-top-right-radius: 3em; 
+    border-bottom: 0;
+    border-style: solid; 
+    border-color: rgba(15, 82, 186, .50);
+    margin: 1px; 
+}
+
+    /*border-bottom-right-radius: 1em; border-color: blue;*/
+   /* border-bottom-left-radius: 1em; border-color: blue;*/
+   
+
+
+
+
+.rowsponge{
+    border-top: 0px;
+    border-right: 0px;
+    border-left:0px;
+    border-bottom: blue;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-style: solid;
+    margin: 1px;
+}
+
+.rowplankton{
+    border-top: 0px;
+    border-right: 0px;
+    border-left:0px;
+    border-bottom: blue;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-style: solid;
+    margin: 1px;
+}
+
+.rowpatrick{
+    border-top: 0px;
+    border-right: 0px;
+    border-left:0px;
+    border-bottom: blue;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-style: solid;
+    margin: 1px;
+}
+
+.rowsandy{
+    border-top: 0px;
+    border-right: 0px;
+    border-left:0px;
+    border-bottom: blue;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-style: solid;
+    margin: 1px;
+}
+
+.rowmrkrabs{
+    border-top: 0px;
+    border-right: 0px;
+    border-left:0px;
+    border-bottom: blue;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-style: solid;
+    margin: 1px;
+}
+
+.rowssquidward{
+    border-top: 0px;
+    border-right: 0px;
+    border-left:0px;
+    border-bottom: blue;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-style: solid;
+    margin: 1px;
+}
+
+.scroller{
+    width: 160px;
+    height: 200vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*
+.btn {
+    border-width: 2px;
+    border-style:solid;
+    border-color: black;
+    color:rgb(255, 215, 0,);
+    
+    
+
+
+}
+*/
+.scroller{
+    width: 160px;
+    height: 35vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .logo_row{
+    width: 250px;
+    border-width: 2px;
+    /*
+    
+    border-color:black;
+    border-style:solid;
+    */
+
+   
+  }
+
+  .logo_col{
+    border-width: 2px;
+    text-align: center;
+     /*
+    border-color:black;
+    border-style:solid;
+    
+    */
+   
+  }
+
+ 
+
+
 #contact {
     padding-bottom: 4rem;
 }
@@ -69,3 +287,12 @@
 }
 
 
+@media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+  
+    header video {
+      display: none;
+    }
+  }
