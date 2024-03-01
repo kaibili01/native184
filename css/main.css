@@ -161,7 +161,7 @@ header {
     position: relative;
     background-color: black;
     height: 75vh;
-    min-height: 25rem;
+    min-height: 10rem;
     width: 100%;
     overflow: hidden;
   }
@@ -231,7 +231,7 @@ header {
 }
 
 #programs, #contact {
-    margin-top: 4rem;
+   
     padding-top: 4rem;
 }
 
