@@ -222,8 +222,10 @@ header {
 
 
 #contact {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
+    
 }
+
 #home {
     padding-bottom: 4rem;
 }
@@ -233,9 +235,6 @@ header {
     
 }
 
-#contact{
-    padding-top: 4rem;
-}
 
 #portfolio {
     margin-top: 0rem;
@@ -247,9 +246,7 @@ header {
     padding-top: 2rem;
 }
 
-#contact {
-    padding-bottom: 4rem;
-}
+
 
 #BOC {
     padding-top: 2rem;
@@ -260,7 +257,7 @@ header {
     padding-top: 2rem;
 }
 
-#FA{
+#{
     padding-top: 2rem;
 }
 
