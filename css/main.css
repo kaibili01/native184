@@ -34,7 +34,7 @@
 
 .prof_card{
     border-top-left-radius: 3em; 
-    border-top-right-radius: 3em; 
+    border-top-right-radius: 3em; s
     border-bottom: 0;
     border-style: solid; 
     border-color: rgba(15, 82, 186, .50);
@@ -44,8 +44,6 @@
     /*border-bottom-right-radius: 1em; border-color: blue;*/
    /* border-bottom-left-radius: 1em; border-color: blue;*/
    
-
-
 
 
 .rowsponge{
@@ -230,8 +228,12 @@ header {
     padding-bottom: 4rem;
 }
 
-#programs, #contact {
-   
+#programs {
+    padding-top: 2rem;
+    
+}
+
+#contact{
     padding-top: 4rem;
 }
 
@@ -247,6 +249,19 @@ header {
 
 #contact {
     padding-bottom: 4rem;
+}
+
+#BOC {
+    padding-top: 2rem;
+    
+}
+
+#SA{
+    padding-top: 2rem;
+}
+
+#FA{
+    padding-top: 2rem;
 }
 
 .imageAboutPage {
