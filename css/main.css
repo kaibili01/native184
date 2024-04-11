@@ -314,8 +314,8 @@ header {
 }
 
 .logo-image{
-    width:auto;
-    height: autos;
+    width:150px;
+    height:150px;
     overflow: hidden;
     margin-top: 2px;
 }
