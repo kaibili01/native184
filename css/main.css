@@ -208,6 +208,9 @@ header {
     background-color: black;
     opacity: 0.5;
     z-index: 1;
+   
+    border-width: 5px;
+    border-style: solid;
   }
 
   .logo_row{
@@ -340,6 +343,14 @@ header {
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: rgb(229 162 23) !important;
+    border-top-color: rgb(0 90 114) !important;
+    border-bottom-color: rgb(22 115 0) !important;
+    
+    border-width: 5px;
+    border-style: solid;
+    
+
+
 
    
 }
