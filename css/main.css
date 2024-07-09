@@ -194,6 +194,7 @@ header {
     transform: translateX(-50%) translateY(-50%);
   }
 
+
   header .container {
     position: relative;
     z-index: 2;
@@ -206,11 +207,13 @@ header {
     height: 100%;
     width: 100%;
     background-color: white;
-    opacity: 0.1;
+    opacity: 0.8;
     z-index: 1;
    
     border-width: 5px;
     border-style: solid;
+
+   
   }
 
   .logo_row{
@@ -348,11 +351,10 @@ header {
     
     border-width: 5px;
     border-style: solid;
+
+    .float-sm-start{
+        position: top-10 start-100; 
     
-
-
-
-   
 }
 
 @media (pointer: coarse) and (hover: none) {
